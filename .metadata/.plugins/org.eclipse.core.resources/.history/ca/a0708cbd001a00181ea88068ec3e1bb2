@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_AnT9YBn6EeiTdvs4URnwsQ" name="NewModel">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_FdozIBn6EeiTdvs4URnwsQ" name="User">
+    <eAnnotations xmi:id="_FdxWABn6EeiTdvs4URnwsQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_FdxWARn6EeiTdvs4URnwsQ" key="Human"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_ImpLcBn6EeiTdvs4URnwsQ" name="Bank"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_MmtHkBn6EeiTdvs4URnwsQ" name="DBMS"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_VSOGMBn6EeiTdvs4URnwsQ" name="Search for Venues/Vendors">
+    <extend xmi:id="_9G8YgBn6EeiTdvs4URnwsQ" extendedCase="_fa7bkBn6EeiTdvs4URnwsQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ZjwM0Bn6EeiTdvs4URnwsQ" memberEnd="_ZkM4wBn6EeiTdvs4URnwsQ _ZkOG4Bn6EeiTdvs4URnwsQ">
+    <ownedEnd xmi:id="_ZkM4wBn6EeiTdvs4URnwsQ" type="_FdozIBn6EeiTdvs4URnwsQ" association="_ZjwM0Bn6EeiTdvs4URnwsQ"/>
+    <ownedEnd xmi:id="_ZkOG4Bn6EeiTdvs4URnwsQ" type="_VSOGMBn6EeiTdvs4URnwsQ" association="_ZjwM0Bn6EeiTdvs4URnwsQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_fa7bkBn6EeiTdvs4URnwsQ" name="Query">
+    <include xmi:id="_0VCokBn7EeiTdvs4URnwsQ" addition="_vW8W4Bn7EeiTdvs4URnwsQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_AflvUBn7EeiTdvs4URnwsQ" memberEnd="_Afm9cBn7EeiTdvs4URnwsQ _AfoLkBn7EeiTdvs4URnwsQ">
+    <ownedEnd xmi:id="_Afm9cBn7EeiTdvs4URnwsQ" type="_fa7bkBn6EeiTdvs4URnwsQ" association="_AflvUBn7EeiTdvs4URnwsQ"/>
+    <ownedEnd xmi:id="_AfoLkBn7EeiTdvs4URnwsQ" type="_MmtHkBn6EeiTdvs4URnwsQ" association="_AflvUBn7EeiTdvs4URnwsQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_lpXeUBn7EeiTdvs4URnwsQ" name="Add/Remove entry"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_vW8W4Bn7EeiTdvs4URnwsQ" name="Filtering"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_4Nb2cBn7EeiTdvs4URnwsQ" name="Add to cart">
+    <extend xmi:id="_8KapYBn7EeiTdvs4URnwsQ" extendedCase="_lpXeUBn7EeiTdvs4URnwsQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_6vBpcBn7EeiTdvs4URnwsQ" memberEnd="_6vCQgBn7EeiTdvs4URnwsQ _6vCQgRn7EeiTdvs4URnwsQ">
+    <ownedEnd xmi:id="_6vCQgBn7EeiTdvs4URnwsQ" type="_FdozIBn6EeiTdvs4URnwsQ" association="_6vBpcBn7EeiTdvs4URnwsQ"/>
+    <ownedEnd xmi:id="_6vCQgRn7EeiTdvs4URnwsQ" type="_4Nb2cBn7EeiTdvs4URnwsQ" association="_6vBpcBn7EeiTdvs4URnwsQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_9CUhwBn7EeiTdvs4URnwsQ" memberEnd="_9CVI0Bn7EeiTdvs4URnwsQ _9CVI0Rn7EeiTdvs4URnwsQ">
+    <ownedEnd xmi:id="_9CVI0Bn7EeiTdvs4URnwsQ" type="_MmtHkBn6EeiTdvs4URnwsQ" association="_9CUhwBn7EeiTdvs4URnwsQ"/>
+    <ownedEnd xmi:id="_9CVI0Rn7EeiTdvs4URnwsQ" type="_lpXeUBn7EeiTdvs4URnwsQ" association="_9CUhwBn7EeiTdvs4URnwsQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="__3TK0Bn7EeiTdvs4URnwsQ" name="Make payment">
+    <extend xmi:id="_KqfAkBn8EeiTdvs4URnwsQ" extendedCase="_DgopABn8EeiTdvs4URnwsQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_CrGvMBn8EeiTdvs4URnwsQ" memberEnd="_CrHWQBn8EeiTdvs4URnwsQ _CrHWQRn8EeiTdvs4URnwsQ">
+    <ownedEnd xmi:id="_CrHWQBn8EeiTdvs4URnwsQ" type="_FdozIBn6EeiTdvs4URnwsQ" association="_CrGvMBn8EeiTdvs4URnwsQ"/>
+    <ownedEnd xmi:id="_CrHWQRn8EeiTdvs4URnwsQ" type="__3TK0Bn7EeiTdvs4URnwsQ" association="_CrGvMBn8EeiTdvs4URnwsQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_DgopABn8EeiTdvs4URnwsQ" name="Process payment">
+    <include xmi:id="_fQW4YBn8EeiTdvs4URnwsQ" addition="_UY_GMBn8EeiTdvs4URnwsQ"/>
+    <include xmi:id="_f9DmUBn8EeiTdvs4URnwsQ" addition="_cSAQ4Bn8EeiTdvs4URnwsQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_UY_GMBn8EeiTdvs4URnwsQ" name="Process Card Payment"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_bBz0UBn8EeiTdvs4URnwsQ" memberEnd="_bB0bYBn8EeiTdvs4URnwsQ _bB1CcBn8EeiTdvs4URnwsQ">
+    <ownedEnd xmi:id="_bB0bYBn8EeiTdvs4URnwsQ" type="_DgopABn8EeiTdvs4URnwsQ" association="_bBz0UBn8EeiTdvs4URnwsQ"/>
+    <ownedEnd xmi:id="_bB1CcBn8EeiTdvs4URnwsQ" type="_ImpLcBn6EeiTdvs4URnwsQ" association="_bBz0UBn8EeiTdvs4URnwsQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_cSAQ4Bn8EeiTdvs4URnwsQ" name="Process Bank Transfer"/>
+</uml:Model>
